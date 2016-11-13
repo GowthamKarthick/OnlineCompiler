@@ -1,0 +1,7 @@
+FIND THE MOST OCCURED ELEMENT
+
+Most occured element: A most occured element in an array A[] of size n is an element that appears more than n/2 times (and hence there is at most one such element).
+
+Write a function which takes an array and emits the most occured element (if it exists), otherwise prints NONE.
+
+       

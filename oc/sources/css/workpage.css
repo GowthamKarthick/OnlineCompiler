@@ -1,0 +1,141 @@
+.dropbtn{
+    font-weight:bold;
+    font-size:26px;
+ cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-weight:bold;
+    width: 130px;
+}
+
+.dropdown-content a {
+    color: rgb(133, 173, 173);
+    padding: 20px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+@font-face{
+font-family:ocf;
+src:url(http://172.17.26.86/design/sources/fonts/SquadaOne-Regular.woff);
+}
+
+@font-face{
+font-family:pcf;
+src:url(http://172.17.26.86/design/sources/fonts/programfont.woff);
+}
+
+body{
+font-family:ocf;
+}
+
+textarea {
+	font-family:pcf;
+	resize:none;
+	font-size:26px;
+	width:80%;
+	//background:rgb(209, 224, 224);
+	color:rgb(38, 38, 38); padding:20px;
+	border: 2px solid rgb(61,92,92);
+}
+
+#ques{
+  white-space:pre;
+}
+#sinput{
+  white-space:pre;
+}
+#soutput{
+  white-space:pre;
+}
+#explain{
+  white-space:pre;
+}
+	
+.lo {
+   font-family:ocf;
+   width: 90%;
+   //background-color:rgb(230, 230, 230);
+   color:rgb(52, 73, 94);
+   font-size:20px;
+   padding: 14px 20px;
+   cursor: pointer;
+   border: 1px;
+
+}
+
+.mc{
+margin:80px;
+
+}
+
+input[type=text]{
+	display: inline-block;
+	border: 1px solid rgb(194, 214, 214);
+	width: 100%;
+	appearance:none;
+  	padding: 12px 20px;
+	border-radius: none;
+}
+
+input[type=text]:focus,input[type=text].focus,textarea:focus {
+box-shadow:0 0 5px rgb(133, 173, 173);
+  border: 2px solid rgb(61,92,92);
+	outline: none;
+}
+
+.rc {
+   font-family:ocf;
+   width: 10%;
+   font-size:18px;
+   font-weight:bold;
+   background-color: rgb(133, 173, 173);
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+
+.rc:hover {
+   background-color: rgb(61,92,92);
+}
+
+
+.fontcolo{
+font-size:25px;
+color:rgb(38, 38, 38);
+}
+
+
+.cc {
+
+	margin-left:1100px;
+	border: 2px solid rgb(61,92,92);
+	text-align:center;
+	padding: 1px 5px;
+	width:10%;
+	font-style:bold;
+}
+.logo{
+margin:10px 40px;
+float:left;
+
+}
+.mainn{
+
+margin:0 0;
+}
+.mainnn{
+width:101%;
+   //background-color: rgb(230, 230, 230);
+}
+

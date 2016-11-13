@@ -1,0 +1,58 @@
+@font-face{
+font-family:ocf;
+src:url(http://172.17.26.86/design/sources/fonts/LindenHill-webfont.woff);
+}
+body{
+font-family:ocf;
+color:rgb(20,31,31);
+}
+
+.te {
+   
+   margin-top:200px;
+
+}
+
+#allerror{
+	font-family:ocf;
+	color:#ff9999;
+
+}
+input[type=text],input[type=password]{
+	font-family:ocf;
+	display: inline-block;
+	border: 1px solid rgb(194, 214, 214);
+	appearance:none;
+  	padding: 12px 20px;
+	border-radius: none;
+}
+
+input[type=text]:focus,input[type=text].focus,input[type=password]:focus,input[type=password].focus,textarea:focus {
+box-shadow:0 0 5px rgb(133, 173, 173);
+  border: 2px solid rgb(61,92,92);
+	outline: none;
+}
+
+
+input[type=submit] {
+   font-family:ocf;
+   background-color: rgb(133, 173, 173);
+   width:10%;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+   background-color: rgb(61,92,92);
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 18px;
+}
+

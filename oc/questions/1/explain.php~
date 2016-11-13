@@ -1,0 +1,30 @@
+<?php
+		session_start();
+		$uname = $_SESSION["uname"];		
+$servername = "localhost";
+$username = "root";
+$password = "Admin";
+
+
+$con = new mysqli($servername, $username, $password,"loginusers");
+if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
+
+	$sql ="select qno from userlevel where uname='test'";
+	$result = mysqli_query($con,$sql);
+	
+	$row=mysqli_fetch_assoc($result);
+
+       	$qno=$row["qno"];
+
+	if(!($fp=fopen("/var/www/project/questions/".$qno."/explain.txt","r")))
+			exit("Unable to open Output.txt");
+			while(!feof($fp))
+			{
+			$myline=fgets($fp);
+			echo "<h3>$myline</h3>";
+			}
+			fclose($fp);
+?>
